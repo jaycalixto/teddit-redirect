@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Teddit redirect",
+  "description": "Redirect Reddit links to Teddit",
+  "version": "1",
+  "author": "Jayme Calixto",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://reddit.com/*",
+    "*://www.reddit.com/*",
+    "*://np.reddit.com/*",
+    "*://amp.reddit.com/*",
+    "*://i.reddit.com/*"
+  ]
+}
